@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserinfoController {
    @GetMapping("/user/{name}")
     public String getUserName(@PathVariable String name){
-        return "Welcome to spring boot  project of CICD " +name;
+        return "Welcome to first  spring boot  project of CICD " +name;
     }
 }
