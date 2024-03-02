@@ -11,6 +11,7 @@
 	<groupId>com.org.springboot.test</groupId>
 	<artifactId>springboot-project-artifact</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>springboot-project</name>
 	<description>Spring Boot project</description>
 	<properties>
@@ -40,6 +41,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>JenkinCICD</finalName>
 	</build>
 
 </project>
